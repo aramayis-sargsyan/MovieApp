@@ -10,13 +10,8 @@ body {
   margin: 0;
 }
 
-.img {
-  min-height: 100vh;
-  background-size: cover;
-}
-
 .img1 {
-  background: url("../src/photos/img-01.png") fixed repeat;
+  background: url("../src/photos/img-01.png") repeat fixed;
 }
 .img2 {
   background: url("../src/photos/img-02.webp") fixed repeat;
@@ -26,4 +21,9 @@ body {
 }
 .img4 {
   background: url("../src/photos/img-04.jpg") fixed repeat;
+}
+
+.img {
+  min-height: 100vh;
+  background-size: contain;
 }
